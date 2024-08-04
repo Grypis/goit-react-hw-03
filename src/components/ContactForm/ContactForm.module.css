@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 25px;
+  border: 2px solid black;
+  border-radius: 8px;
+  max-width: 350px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.field {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.error {
+  color: red;
+}
+
+.btn {
+  padding: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
